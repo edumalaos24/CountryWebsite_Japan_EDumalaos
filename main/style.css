@@ -1,7 +1,7 @@
+/*Alignment & Flexboxes*/
 *{
     justify-content:center;
     text-align:center;
-    font-family:'Times New Roman', Times, serif
 }
 
 .container{
@@ -9,5 +9,48 @@
 }
 
 #banner{
+    justify-content:center;
+    align-items:center;
+}
+
+#links{
+    justify-content:center;
+    align-items:center;
+}
+
+/*Font Settings*/
+*{
+    font-family:'Times New Roman', Times, serif
+}
+
+#banner{
     font-size:100px;
+}
+
+/*Element Spacing*/
+#links{
+    margin-top:800px;
+}
+
+/*Background*/
+#banner img{
+    background-image:url("images/boracay2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:0;
+}
+
+#banner{
+    position:relative;
+}
+
+#titletext{
+    position:absolute;
+}
+
+/*Image Sizing*/
+#titleimage{
+    width:120%;
+    height:120%;
 }
