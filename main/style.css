@@ -1,4 +1,4 @@
-/*Alignment & Flexboxes*/
+/*General*/
 *{
     justify-content:center;
     text-align:center;
@@ -8,37 +8,32 @@
     display:flex;
 }
 
-#banner{
-    justify-content:center;
-    align-items:center;
-}
-
-#links{
-    justify-content:center;
-    align-items:center;
-}
-
-/*Font Settings*/
-*{
-    font-family:'Times New Roman', Times, serif
-}
-
-#banner{
-    font-size:100px;
-}
-
 /*Element Spacing*/
-#links{
-    margin-top:800px;
+
+
+/*Banner*/
+#banner{
+    justify-content:center;
+    align-items:center;
+    vertical-align:top;
+    flex:1;
 }
 
-/*Background*/
-#banner img{
+#titletext{
+    font-size:150px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    flex:1;
+}
+
+#banner{
     background-image:url("images/boracay2.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
     margin:0;
+    padding:0;
+    flex:1;
 }
 
 #banner{
@@ -47,4 +42,31 @@
 
 #titletext{
     position:absolute;
+}
+
+/*Nav Bar*/
+#links{
+    align-items:center;
+    justify-content:center;
+    flex:3;
+    flex-direction:row;
+}
+
+#links{
+    background-color:green;
+    background-size:cover;
+}
+
+#links a{
+    color:white;
+    text-decoration:none;
+}
+
+#links a{
+    font-size:30px;
+}
+
+/*Body*/
+#main{
+    flex-direction:column;
 }
