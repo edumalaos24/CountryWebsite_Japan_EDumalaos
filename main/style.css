@@ -25,7 +25,6 @@
     font-size:150px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white;
-
 }
 
 #banner{
@@ -62,7 +61,22 @@
     transition-timing-function:ease-in-out;
 }
 /*Body*/
+#generalinfo p{
+    font-size:20px;
+}
+
 #main{
     flex-direction:column;
     font-size:15pt;
 }
+
+#main img{
+    height:20%;
+    width:20%;
+    position:relative;
+
+}
+
+/*Sample Content*/
+
+/*Footer*/
