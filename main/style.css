@@ -9,31 +9,30 @@
 }
 
 /*Element Spacing*/
-
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
 
 /*Banner*/
 #banner{
     justify-content:center;
     align-items:center;
-    vertical-align:top;
-    flex:1;
 }
 
 #titletext{
     font-size:150px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color:white;
-    flex:1;
+
 }
 
 #banner{
-    background-image:url("images/boracay2.jpg");
+    background-image:url("images/additional/boracay2.jpg");
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
-    margin:0;
-    padding:0;
-    flex:1;
 }
 
 #banner{
@@ -45,28 +44,25 @@
 }
 
 /*Nav Bar*/
-#links{
-    align-items:center;
-    justify-content:center;
-    flex:3;
+#links a{
     flex-direction:row;
-}
-
-#links{
     background-color:green;
     background-size:cover;
 }
-
 #links a{
     color:white;
     text-decoration:none;
-}
-
-#links a{
     font-size:30px;
+    font-family:sans-serif;
+    padding:1%;
 }
-
+#links a:hover{
+    filter:grayscale(100%);
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+}
 /*Body*/
 #main{
     flex-direction:column;
+    font-size:15pt;
 }
