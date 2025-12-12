@@ -29,6 +29,8 @@
 
 #banner{
     background-image:url("images/additional/boracay2.jpg");
+}
+#banner{
     background-size:cover;
     background-repeat:no-repeat;
     background-position:center;
@@ -94,6 +96,18 @@
     border-radius:10px;
 }
 
+.images2 img{
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.images2{
+    flex-direction:column;
+    display:flex;
+    list-style:none;
+    padding:0;
+    margin:0;
+}
 /*Body*/
 #main p{
     flex-direction:column;
