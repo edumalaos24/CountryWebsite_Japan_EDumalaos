@@ -80,22 +80,45 @@
     background-color:rgba(223,55,54);
 }
 
-/*Body*/
-#generalinfo p{
-    font-size:20px;
+/*Images*/
+.images{
+    flex-direction:column;
+    display:flex;
+    list-style:none;
+    padding:0;
+    margin:0;
 }
 
-#main{
+.images img{
+    border:2px solid black;
+    border-radius:10px;
+}
+
+/*Body*/
+#main p{
     flex-direction:column;
     font-size:15pt;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 #main img{
-    height:20%;
-    width:20%;
+    height:200px;
+    width:300px;
     position:relative;
 }
 
+#main img:hover{
+    filter:grayscale(50%);
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+
+}
+
+#main p{
+    line-height:150%;
+}
 /*Sample Content*/
 
 /*Footer*/
